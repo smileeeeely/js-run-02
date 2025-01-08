@@ -10,7 +10,15 @@
  */
 
 // TODO: squareElements 함수를 작성하세요.
-function squareElements() {}
+function squareElements(arr) {
+    let answer = arr.map(function(item){
+        if(item < 0){
+            item *= -1;
+        }
+        return item * item;
+    });
+    return answer;
+}
 
 // export를 수정하지 마세요.
 export { squareElements };

@@ -23,8 +23,22 @@
  *
  */
 
+function _get20s(arr, get20s){
+    forEach(item => {
+        if(item.age > 19){
+            get20s = {...item};
+        }
+        
+    });
+}
+
+function _
+
 // TODO: get20sEmail 함수를 작성하세요.
-function get20sEmail() {}
+function get20sEmail(arr) {
+    let get20s = [];
+    let got20sEmails = _get20s(arr,get20s). 
+}
 
 // export를 수정하지 마세요.
 export { get20sEmail };
